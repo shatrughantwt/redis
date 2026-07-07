@@ -1,0 +1,13 @@
+{
+    "name": "live-notification",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "api": "node src/api.js",
+        "subscribe": "node src/subscribe.js",
+    },
+    "dependencies": {
+        "express": "^4.18.3",
+        "ioredis": "^5.4.1"
+    }
+}
